@@ -9,7 +9,6 @@ from .serializers import StudentSerializer
 def student_list(request):
     students = Student.objects.all()
     serializer = StudentSerializer(students, many=True) # Convert multiple Student objects into JSON data
-
     return Response(serializer.data)
 
 @api_view(['POST'])
