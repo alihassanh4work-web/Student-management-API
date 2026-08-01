@@ -8,7 +8,6 @@ A simple Student Management API built with Django REST Framework (DRF) using Fun
 - View All Students
 - Update Student
 - Delete Student
-- REST API
 - JSON Responses
 
 ## Technologies Used
