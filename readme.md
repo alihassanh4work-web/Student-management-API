@@ -4,11 +4,10 @@ A simple Student Management API built with Django REST Framework (DRF) using Fun
 
 ## Features
 
-- Create Student
-- View All Students
-- Update Student
-- Delete Student
-- REST API
+- Create Student,Teacher,Course,Classroom
+- View All Students,Teacher,Course,Classroom
+- Update Student,Teacher,Course,Classroom
+- Delete Student,Teacher,Course,Classroom
 - JSON Responses
 
 ## Technologies Used
