@@ -8,6 +8,7 @@ A simple Student Management API built with Django REST Framework (DRF) using Fun
 - View All Students
 - Update Student
 - Delete Student
+- REST API
 - JSON Responses
 
 ## Technologies Used
@@ -90,6 +91,18 @@ http://127.0.0.1:8000/
 | POST | `/add-student/` | Add a student |
 | PUT | `/update-student/<id>/` | Update student |
 | DELETE | `/delete-student/<id>/` | Delete student |
+| GET | `/courses/` | Get all courses |
+| POST | `/add-course/` | Add a course |
+| PUT | `/update-course/<id>/` | Update course |
+| DELETE | `/delete-course/<id>/` | Delete course |
+| GET | `/teacher/` | Get all teacher |
+| POST | `/add-teacher/` | Add a teacher |
+| PUT | `/update-teacher/<id>/` | Update teacher |
+| DELETE | `/delete-teacher/<id>/` | Delete teacher |
+| GET | `/classrooms/` | Get all classroom |
+| POST | `/add-classroom/` | Add a classroom |
+| PUT | `/update-classroom/<id>/` | Update classroom |
+| DELETE | `/delete-classroom/<id>/` | Delete classroom |
 ---
 ## Testing
 Use **Postman** to test all API endpoints.
